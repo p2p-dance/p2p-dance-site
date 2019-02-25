@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import config from "../images/config.gif"
+import samus from "../images/samus.png"
 
 const IndexPage = () => (
   <Layout>
@@ -15,9 +15,9 @@ const IndexPage = () => (
         maxWidth: 400,
       }}
     >
-      <img src={config} width="400px" alt="metroid-gif" />
+      <img src={samus} width="400px" alt="metroid" />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Link to="/page-2/">Next</Link>
   </Layout>
 )
 
