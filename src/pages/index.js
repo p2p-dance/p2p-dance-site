@@ -12,12 +12,12 @@ const IndexPage = () => (
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 400,
+        maxWidth: 500,
       }}
     >
-      <img src={samus} width="400px" alt="metroid" />
+      <h1> open source excursions into hypermedia coming soon... </h1>
+      <Link to="/page-2/">next</Link>
     </div>
-    <Link to="/page-2/">Next</Link>
   </Layout>
 )
 
