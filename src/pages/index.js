@@ -1,10 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import p2pnodes from "../images/p2p-nodes.png"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
-import samus from "../images/samus.png"
 
 const IndexPage = () => (
   <Layout>
@@ -15,8 +13,7 @@ const IndexPage = () => (
         maxWidth: 500,
       }}
     >
-      <h1> open source excursions into hypermedia coming soon... </h1>
-      <Link to="/page-2/">next</Link>
+      <img src={p2pnodes} alt="p2p-nodes-graph" />
     </div>
   </Layout>
 )

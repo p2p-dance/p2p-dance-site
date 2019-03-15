@@ -13,9 +13,11 @@ const SecondPage = () => (
         maxWidth: 500,
       }}
     >
-      <h1>uploading is as vital as downloading</h1>
-      <Link to="/">back</Link>
+      <h1>contact info</h1>
+      <a href="mailto:hello@pulse-code.com">hello@pulse-code.com</a>
+      <br />
     </div>
+    <Link to="/">back</Link>
   </Layout>
 )
 
