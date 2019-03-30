@@ -17,6 +17,10 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-xo-nextjs": "^1.4.0",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.6.0"
   }
 }
