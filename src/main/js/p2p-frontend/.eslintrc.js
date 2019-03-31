@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  extends: ["xo/esnext", "xo-nextjs/space"],
+  extends: ["xo", "xo-nextjs/space"],
   globals: {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly",
