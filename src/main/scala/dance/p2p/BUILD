@@ -15,6 +15,7 @@ jvm_binary(
     main = 'dance.p2p.P2PServerMain',
     dependencies = [
         ':p2p',
+        '3rdparty/jvm/com/sun:activation',
         '3rdparty/jvm/org/slf4j:slf4j-jdk14',
         'src/main/js/gatsby'
     ],

@@ -8,7 +8,7 @@ REPO_ROOT="$(git rev-parse --show-toplevel)"
 # pants must be executed from the repo root directory
 cd "${REPO_ROOT}"
 
-# Produce the application bundle
+# Run the application bundle
 "${REPO_ROOT}/pants" run src/main/scala/dance/p2p:bin \
   --jvm-run-jvm-options="
   -Xms2g -Xmx2g
