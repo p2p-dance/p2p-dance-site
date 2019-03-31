@@ -1,7 +1,6 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-
 import p2pgif from "../images/p2pdance.gif"
 
 const Header = ({ siteTitle }) => (
