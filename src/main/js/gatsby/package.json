@@ -26,11 +26,11 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
+    "build": "yarn run gatsby build --prefix-paths",
+    "develop": "yarn run gatsby develop",
+    "format": "yarn run prettier --write src/**/*.{js,jsx}",
+    "start": "yarn run develop",
+    "serve": "yarn run gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "repository": {

@@ -1,3 +1,3 @@
-package p2p
+package dance.p2p
 
 case class Tweet(text: String, location: Option[String])
