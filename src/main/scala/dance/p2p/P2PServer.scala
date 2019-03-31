@@ -1,4 +1,4 @@
-package p2p
+package dance.p2p
 
 import com.twitter.finatra.http.HttpServer
 import com.twitter.finatra.http.filters.CommonFilters
@@ -13,5 +13,6 @@ class P2PServer extends HttpServer {
     router
       .filter[CommonFilters]
       .add[StreamingController]
+      .add[GatsbyController]
   }
 }

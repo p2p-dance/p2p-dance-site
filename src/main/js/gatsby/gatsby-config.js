@@ -31,4 +31,6 @@ module.exports = {
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
   ],
+  // Note: it must *not* have a trailing slash.
+  pathPrefix: `/gatsby`,
 }

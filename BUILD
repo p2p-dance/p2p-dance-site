@@ -1,4 +1,4 @@
 target(
-    name = 'graphql',
-    dependencies = ['src/main/scala/p2p']
+    name = 'webserver',
+    dependencies = ['src/main/scala/dance/p2p']
 )
