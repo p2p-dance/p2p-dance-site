@@ -1,3 +1,4 @@
+/* eslint-disable jsx-quotes */
 import Link from "next/link"
 
 const linkStyle = {

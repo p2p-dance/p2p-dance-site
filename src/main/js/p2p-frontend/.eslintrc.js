@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  extends: ["xo", "xo-nextjs/space"],
+  extends: ["xo-nextjs/space"],
   globals: {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly",
@@ -16,5 +16,8 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["react"],
-  rules: {},
+  rules: {
+    "react/react-in-jsx-scope": "off",
+    "jsx-quotes": [2, "prefer-double"],
+  },
 }
