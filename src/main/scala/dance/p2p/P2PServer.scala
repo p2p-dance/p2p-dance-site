@@ -12,7 +12,7 @@ class P2PServer extends HttpServer {
   override def configureHttp(router: HttpRouter): Unit = {
     router
       .filter[CommonFilters]
-      .add[StreamingController]
+      .add[TweetController]
       .add[GatsbyController]
   }
 }
